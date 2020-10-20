@@ -1,9 +1,9 @@
-    <div class="loader">
-           <img class="animate animate__animated animate__infinite animate__pulse flip infinite" src="/Theme/img/logo.png"/>
-    </div>
+<div class="loader">
+     <img class="animate animate__animated animate__infinite animate__pulse flip infinite" src="/Theme/img/logo.png"/>
+</div>
     
 <div class="loader">
-           <img class="animate animate__animated animate__infinite animate__pulse flip infinite" src="/Theme/img/logo.png"/>
+           <img class="" src="/Theme/img/logo.png"/>
     </div>
   
   jQuery(function ($) {
