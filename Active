@@ -10,10 +10,10 @@
 <script>
     // menu active class add
    if(location.pathname === "/"){
-      $("nav a[href='/']").addClass("active");
+      $("nav a[href='/']").parent().addClass("active");
    } 
    else{
-      $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass("active");
+      $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().addClass("active");
    }
 </script>
                 
